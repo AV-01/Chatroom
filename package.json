@@ -1,0 +1,28 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "Chatroom for talking",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AV-01/Chatroom.git"
+  },
+  "author": "Aryavrat Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AV-01/Chatroom/issues"
+  },
+  "homepage": "https://github.com/AV-01/Chatroom#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "moment": "^2.29.3",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
